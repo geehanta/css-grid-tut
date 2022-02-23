@@ -30,9 +30,8 @@ button{
     height:70vh;
 }
 .card1{
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-start;
+    display:grid;
+    grid-template-columns:1fr 100px 2fr;
     background-color: #E8E8E8;
     border:2px solid #ccc;
     border-radius: 10px;
@@ -47,10 +46,27 @@ button{
 }
 #box1{
     background-color: orangered;
-    width:0.5vw;
+    width:2vw;
     height:100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+#box1{
+    background-color: orangered;
+    width:2vw;
+    height:100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.box2{
+    background-color:burlywood;
+    width:auto;
+    height:100%;
+}
+.box3{
+    background-color:brown;
+    width:auto;
+    height:100%;
 }
 #btn{
     width:50px;
